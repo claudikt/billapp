@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="h-full bg-surface" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Kindly</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 1.5rem);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-high": "#eae8e5", "surface-tint": "#436557", "on-surface-variant": "#414844", "surface": "#fbf9f6", "outline-variant": "#c1c8c3", "surface-container-lowest": "#ffffff", "on-secondary-container": "#721c09", "on-error": "#ffffff", "tertiary-container": "#45293b", "on-primary-container": "#7ea292", "surface-variant": "#e4e2df", "on-primary-fixed-variant": "#2c4d40", "inverse-on-surface": "#f2f0ed", "secondary-container": "#fd8367", "outline": "#717974", "primary-fixed": "#c5ebd9", "on-primary": "#ffffff", "secondary": "#a13e28", "on-background": "#1b1c1a", "inverse-surface": "#30312f", "tertiary": "#2d1525", "tertiary-fixed": "#ffd8ed", "on-secondary-fixed-variant": "#822714", "error-container": "#ffdad6", "primary-container": "#16382c", "tertiary-fixed-dim": "#e4bbd2", "inverse-primary": "#aacfbe", "surface-container-highest": "#e4e2df", "surface-container-low": "#f5f3f0", "error": "#ba1a1a", "on-tertiary": "#ffffff", "surface-container": "#efeeeb", "secondary-fixed-dim": "#ffb4a3", "on-tertiary-fixed": "#2c1324", "on-tertiary-container": "#b58fa5", "surface-dim": "#dbdad7", "primary": "#002218", "surface-bright": "#fbf9f6", "on-primary-fixed": "#002116", "on-secondary-fixed": "#3d0600", "primary-fixed-dim": "#aacfbe", "on-secondary": "#ffffff", "background": "#fbf9f6", "on-surface": "#1b1c1a", "secondary-fixed": "#ffdad2", "on-error-container": "#93000a", "on-tertiary-fixed-variant": "#5b3e50" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "3rem", "margin-tablet": "2rem", "gutter-desktop": "2rem", "margin": "1.25rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-sm": ["Newsreader"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-xl": ["Newsreader"], "headline-lg-mobile": ["Newsreader"], "headline-lg": ["Newsreader"], "headline-xl-mobile": ["Newsreader"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Newsreader"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "500"}], "headline-lg-mobile": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "500"}], "headline-lg": ["30px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "500"}], "headline-xl-mobile": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "500"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}], "headline-md": ["22px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "body-lg": ["17px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}], "body-md": ["15px", {"lineHeight": "22px", "fontWeight": "400"}] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md min-h-screen flex flex-col antialiased selection:bg-primary-fixed-dim"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><button aria-label="Go back" class="min-w-[44px] min-h-[44px] -ml-2 flex items-center justify-center text-primary rounded-full hover:bg-surface-container active:scale-95 transition-all" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Kindly Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WCkohHt7ZG311YpGuWiY7YnVrCa17V7zIv6UBGsQ4i84n34QOC9Ai5LHqtOgj-HtIkfChrABjErpD3ZLmzlZ6lEwQZhBpDJceDlSzxhjvIt0uZjslZmjWDqE0Pq-A8FVuXaeKZK1byBXdi71s_uBPyZTRbdXDO2qQ2tye3dNyOZ06zBNlIqq5Yq5Mc8m1s2nCo5G-jfn7Eu6NnvbQJCXUs8fQH4yklk6Uq533s2plqLs2XzzBrwqUTlgmV"/><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">Bill Details &amp; Settlement</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Underlying Context & Backdrop Glow -->
+<div class="relative w-full mb-space-md pt-space-xs">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-surface-tint text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-tint">Direct Utility Settlement</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Ref #MSED-8821</span>
+</div>
+<!-- Beneficiary Pill Card -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-11 h-11 shrink-0 rounded-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Warm documentary portrait of Priya, a modest resilient woman from Maharashtra wearing a simple cotton sari, soft natural lighting, peaceful and dignified expression, 35mm film aesthetic with muted earthy tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSlwq4WpWmTgrcwO_JiRLruYOd63qsYgvWRHT-jsQakiDTY-7gpHQkyAlGtFFepAVe-2F_Xl0h9jSdUU55BQjDmfaLxLSdyCky5bQho2C0qIjcrkYWSMGlyQzoT7PGVfB0AwJYRhT6CACIy9TegM9TduZpLUHdR9xhyaAnCDEP6igRQOLGysOH48MgN63Npi7VVSB3KMf1tl2zMe_PlBJxb5hewYkdaPGdbhZZNaMemVfhudqHDVXKlw"/>
+</div>
+<div class="min-w-0 flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Priya S.</span>
+<span class="material-symbols-outlined text-[16px] text-surface-tint" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Electricity Bill • Pune, Maharashtra</span>
+</div>
+</div>
+<div class="flex flex-col items-end shrink-0 pl-2">
+<span class="font-label-sm text-label-sm uppercase text-outline">Due In</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">2 Days</span>
+</div>
+</div>
+</div>
+<!-- The Settlement Ledger Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-md">
+<!-- Institutional Direct Payment Assurance -->
+<div class="bg-primary-fixed/30 rounded-lg p-space-sm flex items-start gap-2.5">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-on-primary text-[16px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Maharashtra State Electricity Distribution Co. (MSEDCL)</span>
+<p class="font-body-sm text-body-sm text-on-primary-fixed-variant leading-relaxed mt-0.5">
+          Kindly pays directly to the utility provider — zero cash transfers, 100% verified direct relief.
+        </p>
+</div>
+</div>
+<!-- Transparent Financial Breakdown Ledger -->
+<div class="flex flex-col bg-surface-container-low rounded-lg p-space-md gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface-variant">Bill Amount</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">₹4,200.00</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Platform Fee</span>
+<span class="font-label-sm text-label-sm text-surface-tint bg-primary-fixed px-1.5 py-0.2 rounded font-medium">100% Donor Funded</span>
+</div>
+<span class="font-body-sm text-body-sm text-surface-tint font-medium">₹0.00</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Payment Gateway Fee</span>
+<span class="font-label-sm text-label-sm text-surface-tint bg-primary-fixed px-1.5 py-0.2 rounded font-medium">Covered by Kindly</span>
+</div>
+<span class="font-body-sm text-body-sm text-surface-tint font-medium">₹0.00</span>
+</div>
+<div class="h-px bg-surface-container-high my-1"></div>
+<div class="flex items-center justify-between pt-0.5">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary font-bold">Total You Pay</span>
+<span class="font-label-sm text-label-sm text-outline">No hidden deductions</span>
+</div>
+<span class="font-headline-md text-headline-md text-primary font-bold">₹4,200</span>
+</div>
+</div>
+<!-- Warm Note of Encouragement Field -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-primary flex items-center gap-1.5" for="warm-blessing-input">
+<span class="material-symbols-outlined text-[16px] text-secondary">favorite</span>
+          Send an anonymous blessing or note
+        </label>
+<span class="font-label-sm text-label-sm text-outline">Optional</span>
+</div>
+<div class="relative w-full">
+<textarea class="w-full bg-surface-container-low rounded-lg p-3 text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:shadow-sm resize-none transition-all" id="warm-blessing-input" maxlength="160" placeholder="Wishing your mother speedy health and peaceful days ahead..." rows="2"></textarea>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-surface-tint">lock</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Shared privately with Priya upon settlement. Your identity stays anonymous.</span>
+</div>
+</div>
+<!-- Payment Method Selector -->
+<div class="flex flex-col gap-2">
+<span class="font-label-md text-label-md text-primary">Select Payment Method</span>
+<!-- Option 1: UPI (Default selected) -->
+<label class="payment-method-card flex items-center justify-between p-3 rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99]" data-method="upi">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">UPI Instant Transfer</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Google Pay • PhonePe • Paytm • Any UPI ID</span>
+</div>
+</div>
+<div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-on-primary"></div>
+</div>
+</label>
+<!-- Option 2: Net Banking -->
+<label class="payment-method-card flex items-center justify-between p-3 rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99] opacity-85 hover:opacity-100" data-method="netbanking">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Net Banking</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">All major Indian banks (SBI, HDFC, ICICI, etc.)</span>
+</div>
+</div>
+<div class="w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center shrink-0">
+</div>
+</label>
+<!-- Option 3: Cards -->
+<label class="payment-method-card flex items-center justify-between p-3 rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99] opacity-85 hover:opacity-100" data-method="cards">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">credit_card</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">RuPay, Debit &amp; Credit Cards</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero processing surcharge</span>
+</div>
+</div>
+<div class="w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center shrink-0">
+</div>
+</label>
+</div>
+<!-- Confirmation CTA Button with Coral Hue & Radiant Warm Elevation -->
+<div class="pt-1 flex flex-col gap-space-sm">
+<button class="w-full h-[54px] rounded-xl bg-gradient-to-r from-secondary to-secondary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-[0_8px_24px_-4px_rgba(161,62,40,0.35)] active:scale-[0.98] transition-all" id="confirm-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">format_image_left</span>
+<span>Confirm &amp; Clear Bill (₹4,200)</span>
+</button>
+<!-- Trust Badges & Tax Receipts -->
+<div class="flex items-center justify-center gap-2 text-center text-on-surface-variant px-2">
+<span class="material-symbols-outlined text-[15px] text-surface-tint">lock</span>
+<span class="font-body-sm text-body-sm">256-bit encryption</span>
+<span class="text-outline">•</span>
+<span class="material-symbols-outlined text-[15px] text-secondary">receipt_long</span>
+<span class="font-body-sm text-body-sm">Tax-deductible 80G receipt generated instantly</span>
+</div>
+</div>
+</div>
+<!-- Micro-story grounding footnote -->
+<div class="mt-space-md p-space-sm rounded-lg bg-surface-container-low flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[18px]">handshake</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+      Priya’s connection status will be refreshed directly with the grid authority within 15 minutes of payment confirmation.
+    </p>
+</div>
+</div>
+<script>
+  (function() {
+    const cards = document.querySelectorAll('.payment-method-card');
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        cards.forEach(c => {
+          c.classList.add('opacity-85');
+          const indicator = c.querySelector('div:last-child');
+          if (indicator) {
+            indicator.className = 'w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center shrink-0';
+            indicator.innerHTML = '';
+          }
+        });
+        card.classList.remove('opacity-85');
+        const selectedIndicator = card.querySelector('div:last-child');
+        if (selectedIndicator) {
+          selectedIndicator.className = 'w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0';
+          selectedIndicator.innerHTML = '<div class="w-2 h-2 rounded-full bg-on-primary"></div>';
+        }
+      });
+    });
+
+    const confirmBtn = document.getElementById('confirm-btn');
+    if (confirmBtn) {
+      confirmBtn.addEventListener('click', () => {
+        const originalContent = confirmBtn.innerHTML;
+        confirmBtn.disabled = true;
+        confirmBtn.innerHTML = `
+          <svg class="animate-spin -ml-1 mr-2 h-5 w-5 text-on-primary inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <span>Securing Direct Settlement...</span>
+        `;
+        setTimeout(() => {
+          confirmBtn.innerHTML = `
+            <span class="material-symbols-outlined text-[20px]">check_circle</span>
+            <span>Settlement Dispatched!</span>
+          `;
+          confirmBtn.classList.remove('from-secondary', 'to-secondary-container');
+          confirmBtn.classList.add('bg-primary-container', 'text-on-primary-container');
+        }, 1200);
+      });
+    }
+  })();
+</script></main></body></html>
